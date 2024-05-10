@@ -1,5 +1,5 @@
 import random
-comp_guess = random.randint(1, 100)
+comp_guess = random.randint(1, 50)
 number_of_attempts = 0
 while True:
     try:
@@ -18,4 +18,4 @@ while True:
             number_of_attempts = number_of_attempts + 1
 
     except:
-        print("Choose a Number Between 1 to 100!")
+        print("Choose a Number Between 1 to 50!")
